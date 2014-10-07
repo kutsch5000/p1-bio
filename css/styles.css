@@ -1,5 +1,21 @@
 /* Your Website Styles */
+body{
+	background: url("../img/ws.png") #C9E8BA;
+}
 
+h1{
+	background: red;
+	padding: 10px;
+	border: 10px black double;
+	width: 300px;
+	margin: 10px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #2A7E72;
+}
+
+p{
+	line-height: 36px;
+}
 
 /* Show Grid */
 .showgrid {
