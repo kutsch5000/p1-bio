@@ -1,23 +1,81 @@
 /* Your Website Styles */
 body{
-	background: url("../img/ws.png") #C9E8BA;
+	background: url("../img/ws.png") #E9E9F1;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 h1{
-	background: red;
-	padding: 10px;
-	border: 10px black double;
-	width: 300px;
-	margin: 10px;
-	font-family: 'Droid Sans', sans-serif;
-	color: #2A7E72;
+	text-align: center;
+	font-size: 144px;
+	margin-top: 36px;
+	margin-bottom: 0px;
 }
 
-p{
-	line-height: 36px;
+h2{
+	text-align: center;
 }
+
+li {
+	text-align: center;
+	font-weight: bolder;
+	list-style: none;
+  	float: left;
+  	margin: 0 4px 0 4px;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+ul a{
+	color: #333;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.text_bg{
+	padding: 10px; 
+	background: #C73F17;
+	margin-bottom: 0px;
+}
+
+.bio_stuff {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.portrait{
+	border-radius: 0px 0px 25px 25px;
+}
+
+.max {
+max-width:800px;
+max-height:100%;
+}
+
+dl#simple-gallery { 
+	position: relative;
+	margin: 0px;
+	background-color: black;
+	border-radius: 0px 0px 25px 25px;
+	 }
+
+dl#simple-gallery dt { 
+	width: 75px; 
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+dl#simple-gallery dd { opacity: 0; position: absolute; top: 20px; left: 100px; }
+
+dl#simple-gallery dt:hover + dd, dl#simple-gallery dt:focus + dd { opacity: 1; }
 
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+
+
